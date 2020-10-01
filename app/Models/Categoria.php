@@ -12,12 +12,4 @@ class Categoria extends Model
     {
         return $this->belongsTo('App\Models\Usuario');
     }
-    public function usuarios(){
-        return $this->belongsToMany('\App\Usuario','roles_categorias_usuarios')
-            ->withPivot('usuario_id','status');
-    }
-    public function roles(){
-        return $this->belongsToMany('\App\Rol','roles_categorias_usuarios')
-            ->withPivot('roles_id','status');
-    }
 }

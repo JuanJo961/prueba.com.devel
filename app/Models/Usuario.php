@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use App\Turno;
 use App\Categoria;
+use App\Rol;
 
 class Usuario extends Model
 {
@@ -20,12 +21,9 @@ class Usuario extends Model
         return $this->hasMany('App\Models\Turno');
     }
     public function roles(){
-        return $this->belongsToMany('\App\Rol','roles_categorias_usuarios')
-            ->withPivot('roles_id','status');
+        return $this->belongsToMany('\App\Models\Rol')
+            ->withPivot('roles_id')->withTimestamps();;
     }
 
-    public function categories(){
-        return $this->belongsToMany('\App\Categoria','roles_categorias_usuarios')
-            ->withPivot('categorias_id','status');
-    }
+
 }

@@ -8,12 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 class Rol extends Model
 {
     use HasFactory;
-    public function categories(){
-        return $this->belongsToMany('\App\Categoria','roles_categorias_usuarios')
-            ->withPivot('categorias_id','status');
-    }
+    protected $table='roles';
     public function usuarios(){
-        return $this->belongsToMany('\App\Usuario','roles_categorias_usuarios')
-            ->withPivot('usuario_id','status');
+        return $this->belongsToMany('\App\Models\Usuario')->withTimestamps();
     }
 }

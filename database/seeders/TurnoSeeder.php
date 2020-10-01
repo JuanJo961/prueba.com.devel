@@ -22,9 +22,9 @@ class TurnoSeeder extends Seeder
                 'COMICIONADO',
             ];
         for($i=0; $i<count($data);$i++){
-            $categoria =new Turno();
-            $categoria->nombre = $data[$i];
-            $categoria->save();
+            $turno =new Turno();
+            $turno->nombre = $data[$i];
+            $turno->save();
             }
     }
 }

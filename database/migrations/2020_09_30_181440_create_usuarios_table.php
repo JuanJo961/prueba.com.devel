@@ -19,6 +19,10 @@ class CreateUsuariosTable extends Migration
             $table->string('apellido_p',80);
             $table->string('apellido_m',80);
             $table->date('fecha_nacimiento');
+            $table->string('direccion',100);
+            $table->string('numero_tel',100);
+            $table->string('email',100);
+            $table->string('cod_post',100);
             $table->foreignId('categoria_id');
             $table->foreignId('turno_id');
             $table->timestamps();
