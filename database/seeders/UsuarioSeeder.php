@@ -25,7 +25,7 @@ class UsuarioSeeder extends Seeder
         $rol_2= Rol::select(['id'])->where('nombre', 'ENFERMERA')->first()->id;
 
         $faker=Factory::create();
-        for($i = 0; $i < 10000000; $i++){
+        for($i = 0; $i < 1000; $i++){
         $usuario = new Usuario();
         $usuario->nombre = $faker->name;
         $usuario->apellido_paterno = $faker->lastName;;

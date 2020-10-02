@@ -5,6 +5,8 @@ namespace Database\Seeders;
 use Illuminate\Database\Seeder;
 
 use App\Models\TurnoEmpleado;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Storage;
 
 class TurnosEmpleadosSeeder extends Seeder
 {
@@ -15,7 +17,9 @@ class TurnosEmpleadosSeeder extends Seeder
      */
     public function run()
     {
-        $data = [
+        $turnos= Storage::disk('database')->get('turnos_empleados.sql');
+        DB::unprepared($turnos);  
+       /*  $data = [
             'MIXTO',
             'MATUTINO',
             'VESPERTINO',
@@ -27,7 +31,7 @@ class TurnosEmpleadosSeeder extends Seeder
           $turnos_empleados = new TurnoEmpleado();
           $turnos_empleados->nombre = $data[$i];
           $turnos_empleados->save();
-        }
+        } */
     }
 
 
