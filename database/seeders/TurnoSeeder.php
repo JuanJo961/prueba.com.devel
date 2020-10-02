@@ -3,7 +3,9 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
-use App\Models\Turno;
+use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\DB;
+
 
 class TurnoSeeder extends Seeder
 {
@@ -14,17 +16,7 @@ class TurnoSeeder extends Seeder
      */
     public function run()
     {
-          $data = [
-                'MIXTO',
-                'MATUTINO',
-                'VESPERTINO',
-                'NOCTURNO',
-                'COMICIONADO',
-            ];
-        for($i=0; $i<count($data);$i++){
-            $turno =new Turno();
-            $turno->nombre = $data[$i];
-            $turno->save();
-            }
+        $turnos = Storage::disk('database')->get('cat_turnos.sql');
+        DB::unprepared($turnos);
     }
 }

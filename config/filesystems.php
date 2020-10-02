@@ -1,5 +1,6 @@
 <?php
 
+
 return [
 
     /*
@@ -64,6 +65,14 @@ return [
             'url' => env('AWS_URL'),
             'endpoint' => env('AWS_ENDPOINT'),
         ],
+        'database' => [
+            'driver' => 'local',
+            'root' => storage_path('app/database'),
+            'url' => env('APP_URL').'/storage',
+            'visibility' => 'public',
+        ],
+
+
 
     ],
 
@@ -80,6 +89,13 @@ return [
 
     'links' => [
         public_path('storage') => storage_path('app/public'),
+        public_path('images') => storage_path('app/images'),
     ],
 
+
+
+
+
 ];
+
+
