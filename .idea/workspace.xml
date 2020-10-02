@@ -20,17 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea41c746-c394-43c0-84e7-1c132b178815" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/prueba.com.devel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prueba.com.devel.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeders/TurnoSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/TurnoSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeders/UsuarioSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/UsuarioSeeder.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +182,7 @@
       <updated>1601478272243</updated>
       <workItem from="1601478273407" duration="110000" />
       <workItem from="1601560662970" duration="22445000" />
-      <workItem from="1601646265114" duration="12402000" />
+      <workItem from="1601646265114" duration="17983000" />
     </task>
     <servers />
   </component>
@@ -215,17 +206,17 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="16" y="333" key="#SQL_Dialects/0.0.1280.984@0.0.1280.984" timestamp="1601651816696" />
-    <state x="232" y="150" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601651856930">
+    <state x="232" y="150" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601672718653">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="232" y="150" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.984@0.0.1280.984" timestamp="1601651856930" />
+    <state x="232" y="150" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.984@0.0.1280.984" timestamp="1601672718653" />
     <state x="414" y="294" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601580195724">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="414" y="294" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.984@0.0.1280.984" timestamp="1601580195724" />
-    <state x="370" y="247" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1601576832581">
+    <state x="370" y="247" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1601671600962">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="370" y="247" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1280.984@0.0.1280.984" timestamp="1601576832581" />
+    <state x="370" y="247" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1280.984@0.0.1280.984" timestamp="1601671600962" />
   </component>
 </project>
