@@ -21,6 +21,9 @@ class DatabaseSeeder extends Seeder
         $this->call(UsuarioSeeder::class);
         //$this->call(PacienteSeeder::class);
         $this->call(CatPlazaSeeder::class);
+        $this->call(CatRamaSeeder::class);
         $this->call(CatDepartamentoSeeder::class);
+        $this->call(CatCodigoSeeder::class);
+        $this->call(CatFuncionesSeeder::class);
     }
 }
